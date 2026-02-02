@@ -1,0 +1,73 @@
+<head>
+
+</header>
+
+<section class="hero" id="home">
+  <h1>Premium Nigerian Foodstuffs</h1>
+  <p>Local sales • International export • Trusted quality</p>
+  <a class="btn" href="#products">Shop Now</a>
+</section>
+
+<section class="section" id="about">
+  <h2>About Us</h2>
+  <p>CLARIFY is a Nigerian-based foodstuffs business supplying high-quality agricultural products for local consumption and international export. Our focus is quality, hygiene, and reliable delivery.</p>
+</section>
+
+<section class="section" id="products">
+  <h2>Our Products</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Garri</h3>
+      <p>White & Yellow garri processed hygienically.</p>
+      <a class="btn" href="https://wa.me/2349132530996?text=I%20want%20to%20order%20Garri" target="_blank">Order on WhatsApp</a>
+      <a class="btn" href="#" onclick="payNow('Garri')">Pay Now</a>
+    </div>
+    <div class="card">
+      <h3>Egusi</h3>
+      <p>Clean, sorted melon seeds.</p>
+      <a class="btn" href="https://wa.me/2349132530996?text=I%20want%20to%20order%20Egusi" target="_blank">Order on WhatsApp</a>
+      <a class="btn" href="#" onclick="payNow('Egusi')">Pay Now</a>
+    </div>
+    <div class="card">
+      <h3>Palm Oil</h3>
+      <p>Pure, well-packaged palm oil.</p>
+      <a class="btn" href="https://wa.me/2349132530996?text=I%20want%20to%20order%20Palm%20Oil" target="_blank">Order on WhatsApp</a>
+      <a class="btn" href="#" onclick="payNow('Palm Oil')">Pay Now</a>
+    </div>
+    <div class="card">
+      <h3>Dried Pepper</h3>
+      <p>Sun-dried and export-ready.</p>
+      <a class="btn" href="https://wa.me/2349132530996?text=I%20want%20to%20order%20Dried%20Pepper" target="_blank">Order on WhatsApp</a>
+      <a class="btn" href="#" onclick="payNow('Dried Pepper')">Pay Now</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="export">
+  <h2>Export Services</h2>
+  <p>We package and export Nigerian foodstuffs to the UK, USA, Canada, Europe, and other countries, following international food safety standards.</p>
+</section>
+
+<section class="section" id="contact">
+  <h2>Contact Us</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Your Email" required />
+    <textarea rows="5" placeholder="Your Message"></textarea>
+    <button class="btn" type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer>
+  <p>© 2026 CLARIFY. All Rights Reserved.</p>
+</footer>
+
+<script>
+  function payNow(product) {
+    alert('Paystack integration coming soon. For now, please order ' + product + ' via WhatsApp.');
+    // Later, Paystack payment popup code will be added here
+  }
+</script>
+
+</body>
+</html>
